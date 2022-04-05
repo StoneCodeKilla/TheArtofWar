@@ -12,5 +12,6 @@
 function doubled(arr){
     return arr.map(element => element * 2)
 }
+doubled([1,2,3])
 
 // map through the array and multiply each element by 2. also return
