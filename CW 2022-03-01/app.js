@@ -23,4 +23,4 @@ numInArray([1,2,3],4) //should return false
 function numInArray(arr,num) {
     return arr.includes(num)
 }
-//way less complicated, i dont know why i complicate things lolololol. 
+//way less complicated, i dont know why i complicate things lolololol. geeeezzzz 
