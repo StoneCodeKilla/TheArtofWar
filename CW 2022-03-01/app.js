@@ -18,6 +18,9 @@ function numInArray(arr,num) {
 
 numInArray([1,2,3],4) //should return false
 
+
+//second attempt and final answer
 function numInArray(arr,num) {
     return arr.includes(num)
 }
+//way less complicated 
