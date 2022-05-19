@@ -7,3 +7,12 @@
 
 //Note:
 //Your points are not included in the array of your class's points. For calculating the average point you may add your point to the given array!
+
+
+
+function betterThanAverage(classPoints, yourPoints) {
+    const classPointsSum = classPoints.reduce((a, b) => a + b, 0);
+    const classAverage = classPointsSum / classPoints.length;
+    const isBetter = yourPoints > classAverage;
+    return isBetter;
+  }
