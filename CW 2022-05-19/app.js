@@ -8,3 +8,8 @@ function noSpace(x){
 
 
 }
+
+function noSpace(x){
+    return x.replace(/\s/g, '');
+  }
+  
