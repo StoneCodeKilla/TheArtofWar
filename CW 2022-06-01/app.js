@@ -19,5 +19,6 @@ function generateRange(min,max,step) {
         array.push(i)
     }
     return array
+    //final answer
 }
 
